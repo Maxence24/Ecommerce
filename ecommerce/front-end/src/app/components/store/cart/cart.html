@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <button mat-button type="button" (click)="deleteCart()">Delete the cart</button>
+    <div *ngFor="let key of cartproduct ">
+        <div *ngFor="let item of allProduct">
+          <div *ngIf="item.title === key">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>{{item.title}}</mat-card-title>
+                <mat-card-subtitle>{{item.description}}</mat-card-subtitle>
+              </mat-card-header>
+              <img mat-card-image [src]="item.imageUrl" >
+              <mat-card-content>{{cartPrice(item.title, item.price)}}{{item.price}} €</mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
