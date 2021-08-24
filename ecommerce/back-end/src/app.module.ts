@@ -8,7 +8,7 @@ import { ProductsService } from './products/products.service';
   imports: [
     ProductsModule,
     /*MongooseModule.forRoot(
-      'mongodb+srv://Maxence:VV94ms1EayFkaSpL@cluster0.t90uo.mongodb.net/Infineo?retryWrites=true&w=majority',
+      '',
     ),*/
   ],
   controllers: [ProductsController],

@@ -4,6 +4,7 @@ import {ProductResource} from "./services/ProductResource";
 import {ProductListModule} from "./list/ProductListModule";
 import {CartModule} from "./cart/CartModule";
 
+
 @NgModule({
   imports:[ProductListModule,CartModule],
   exports:[ProductListModule,CartModule],

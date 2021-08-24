@@ -10,7 +10,6 @@ describe('ProductsController', () => {
       controllers: [ProductsController],
       providers: [ProductsService],
     }).compile();
-
     controller = module.get<ProductsController>(ProductsController);
   });
 

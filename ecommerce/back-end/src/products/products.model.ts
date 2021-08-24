@@ -16,7 +16,6 @@ export interface Product extends mongoose.Document {
   price: number;
 }
 */
-
 export class ProductsModel {
   title: string;
   description: string;

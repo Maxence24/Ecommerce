@@ -43,7 +43,6 @@ export class ProductsController {
     );
     return { id: generatedId };
   }
-
   @Get()
   async getProduct(): Promise<ProductsModel[]> {
     const product = await this.productsService.getProduct();

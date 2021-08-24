@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {ProductListComponent} from "./components/store/list/ProductListComponent";
 import {CartComponent} from "./components/store/cart/CartComponent";
 
+
 const routes: Routes = [
   {path: 'productList', component: ProductListComponent},
   {path: 'cart', component: CartComponent}

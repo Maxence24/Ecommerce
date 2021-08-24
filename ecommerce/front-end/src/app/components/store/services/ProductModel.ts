@@ -1,3 +1,4 @@
+
 export class ProductsModel {
   // @ts-ignore
   title: string;

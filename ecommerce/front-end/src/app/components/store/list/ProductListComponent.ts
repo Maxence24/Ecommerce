@@ -4,7 +4,6 @@ import {ProductsModel} from "../services/ProductModel";
 import {ProductService} from "../services/ProductService";
 import {LocalStorageService} from "../services/LocalStorageService";
 
-
 @Component({
   selector: 'app-product-list',
   templateUrl: 'productList.html'
